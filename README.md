@@ -3,8 +3,8 @@
 A program that compares two methods of matrix multiplication.
 It generates linearly at random two 800x800 matrices of integer numbers.
 It shows the execution times in milliseconds for calculating the generated matrices multiplication of two distinct approaches: a multithreading and the sequentially.
-The multithreading method creates one thread responsible for calculating each line of the resultant matrix.
-Therefore, 800 threads fill in parallel all matrix lines.
+The multithreading method creates one thread responsible for calculating each row of the resultant matrix.
+Therefore, 800 threads fill in parallel all matrix rows.
 
 ![A program printscreen](SampleImage.png)
 
